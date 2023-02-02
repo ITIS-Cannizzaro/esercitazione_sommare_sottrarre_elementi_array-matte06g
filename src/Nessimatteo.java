@@ -26,7 +26,7 @@ public class Nessimatteo
 			System.out.println("La somma degli elementi pari è " + sommapari + ";");
 			break;
 		case 2:
-			sommadeidispari(array);
+			diffdeidispari(array);
 			System.out.println("La diff degli elementi dispari è " + diffdispari + ";");
 			break;
 		case 3:
@@ -47,7 +47,7 @@ public class Nessimatteo
 		}
 		return sommapari;
 	}
-	static double sommadeidispari(double[]a)
+	static double diffdeidispari(double[]a)
 	{
 		for(int i = 0; i < array.length; i++)
 		{
